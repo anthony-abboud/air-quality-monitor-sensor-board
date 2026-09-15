@@ -1,0 +1,42 @@
+# --- KiCad ---
+# Temporary / backup files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.pro-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+
+# Lock files
+*.lck
+~*.lck
+
+# Auto-generated caches (regenerated locally, don't commit)
+fp-info-cache
+
+# Archived project backups (the *-backups folders KiCad creates automatically)
+**/*-backups/
+
+# Netlist / autorouter / export files (regenerable from the design)
+*.net
+*.dsn
+*.ses
+*.xml
+
+# --- OS / Editor clutter ---
+.DS_Store
+Thumbs.db
+*.swp
+
+# --- Optional: fabrication outputs ---
+# Uncomment these if you'd rather regenerate Gerbers than commit them.
+# Leaving them tracked is fine (even useful for a portfolio) if you want
+# proof of what was actually sent to fab.
+# *.gbr
+# *.drl
+# *.gbrjob
