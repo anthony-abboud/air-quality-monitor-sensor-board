@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "b5a05005-d197-4f6e-8217-a1e4e2f51521")
-	(paper "A4")
+	(paper "A5" portrait)
 	(lib_symbols
 		(symbol "Conn_01x20_Socket_1"
 			(pin_names
@@ -2490,7 +2490,7 @@
 		)
 		(uuid "3e882125-1fae-4b07-9e80-d4e6aef122b9")
 	)
-	(label "VDD"
+	(label "VBUS"
 		(at 88.9 63.5 180)
 		(effects
 			(font
@@ -2540,7 +2540,7 @@
 		)
 		(uuid "a1d34df6-a301-48bc-8082-5964a600cdb8")
 	)
-	(label "VDD"
+	(label "VBUS"
 		(at 82.55 124.46 90)
 		(effects
 			(font

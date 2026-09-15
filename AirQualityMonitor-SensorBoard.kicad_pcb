@@ -6,7 +6,7 @@
 		(thickness 1.6)
 		(legacy_teardrops no)
 	)
-	(paper "A5")
+	(paper "A5" portrait)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
