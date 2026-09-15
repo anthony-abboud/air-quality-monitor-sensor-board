@@ -30,7 +30,6 @@ The original prototype connected the Pico 2 W to the SEN54 sensor via breadboard
 - Two socket headers, manually spaced to fit the Pico 2 W, replace the breadboard and loose cabling from the original prototype.
 - The onboard JST connector interfaces with the SEN54 over a cable, keeping the sensor off-board for flexible mounting.
 - The SEN54's SEL pin is tied to GND to select I2C communication mode (rather than UART).
-- All ground connections (sensor GND, SEL, and both Pico ground pins used) share a single common `GND` net.
 
 ## Repository Structure
 
